@@ -14,4 +14,8 @@ fig1.show()
 
 st.title('DASHCOVID - Um Painel de Informações')
 
+st.set_page_config(
+    page_title="DashCovid",
+    layout="wide")
+
 st.plotly_chart(fig1, use_container_width=True)
