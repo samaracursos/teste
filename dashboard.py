@@ -31,5 +31,3 @@ fig2.update_layout(xaxis_title = 'Data', yaxis_title = 'Número de Casos Acumula
 fig2.show()
 
 st.plotly_chart(fig2, use_container_width=True)
-
-st.plotly_chart(fig1, use_container_width=True)
