@@ -20,7 +20,7 @@ fig1.show()
 
 st.plotly_chart(fig1, use_container_width=True)
 
-df_brasil_eua = df.query('Country = "Brazil" or Country = "United States of America"')
+df_brasil_eua = df.query('Country == "Brazil" or Country == "United States of America"')
 
 fig2 = px.line(df_brasil_eua, 
                x = 'Date_reported', 
